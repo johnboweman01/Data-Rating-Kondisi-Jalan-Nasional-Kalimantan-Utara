@@ -1,0 +1,40 @@
+var size = 0;
+var placement = 'point';
+
+var style_Mantap2025_3 = function(feature, resolution){
+    var context = {
+        feature: feature,
+        variables: {}
+    };
+    
+    var labelText = ""; 
+    var value = feature.get("MNTP 2025");
+    var labelFont = "10px, sans-serif";
+    var labelFill = "#000000";
+    var bufferColor = "";
+    var bufferWidth = 0;
+    var textAlign = "left";
+    var offsetX = 0;
+    var offsetY = 0;
+    var placement = 'line';
+    if ("" !== null) {
+        labelText = String("");
+    }
+    if (value >= 0.000000 && value <= 59.999990) {
+            style = [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(255,0,1,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })]
+                    } else if (value >= 59.999990 && value <= 100.000000) {
+            style = [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(171,221,164,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })]
+                    };
+
+    return style;
+};
