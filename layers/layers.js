@@ -25,8 +25,8 @@ var lyr_Mantap2023_1 = new ol.layer.Vector({
                 popuplayertitle: 'Mantap 2023',
                 interactive: true,
     title: 'Mantap 2023<br />\
-    <img src="styles/legend/Mantap2023_1_0.png" /> Mantap<br />\
-    <img src="styles/legend/Mantap2023_1_1.png" /> Tidak Mantap<br />' });
+    <img src="styles/legend/Mantap2023_1_0.png" /> Tidak Mantap<br />\
+    <img src="styles/legend/Mantap2023_1_1.png" /> Mantap<br />' });
 var format_Mantap2024_2 = new ol.format.GeoJSON();
 var features_Mantap2024_2 = format_Mantap2024_2.readFeatures(json_Mantap2024_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -41,8 +41,8 @@ var lyr_Mantap2024_2 = new ol.layer.Vector({
                 popuplayertitle: 'Mantap 2024',
                 interactive: true,
     title: 'Mantap 2024<br />\
-    <img src="styles/legend/Mantap2024_2_0.png" /> Mantap<br />\
-    <img src="styles/legend/Mantap2024_2_1.png" /> Tidak Mantap<br />' });
+    <img src="styles/legend/Mantap2024_2_0.png" /> Tidak Mantap<br />\
+    <img src="styles/legend/Mantap2024_2_1.png" /> Mantap<br />' });
 var format_Mantap2025_3 = new ol.format.GeoJSON();
 var features_Mantap2025_3 = format_Mantap2025_3.readFeatures(json_Mantap2025_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -57,8 +57,8 @@ var lyr_Mantap2025_3 = new ol.layer.Vector({
                 popuplayertitle: 'Mantap 2025',
                 interactive: true,
     title: 'Mantap 2025<br />\
-    <img src="styles/legend/Mantap2025_3_0.png" /> Mantap<br />\
-    <img src="styles/legend/Mantap2025_3_1.png" /> Tidak Mantap<br />' });
+    <img src="styles/legend/Mantap2025_3_0.png" /> Tidak Mantap<br />\
+    <img src="styles/legend/Mantap2025_3_1.png" /> Mantap<br />' });
 var format_PCI2023_4 = new ol.format.GeoJSON();
 var features_PCI2023_4 = format_PCI2023_4.readFeatures(json_PCI2023_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -73,11 +73,11 @@ var lyr_PCI2023_4 = new ol.layer.Vector({
                 popuplayertitle: 'PCI 2023',
                 interactive: true,
     title: 'PCI 2023<br />\
-    <img src="styles/legend/PCI2023_4_0.png" /> Sangat Baik <br />\
-    <img src="styles/legend/PCI2023_4_1.png" /> Baik <br />\
+    <img src="styles/legend/PCI2023_4_0.png" /> Rusak Berat<br />\
+    <img src="styles/legend/PCI2023_4_1.png" /> Rusak Ringan <br />\
     <img src="styles/legend/PCI2023_4_2.png" /> Sedang<br />\
-    <img src="styles/legend/PCI2023_4_3.png" /> Rusak Ringan <br />\
-    <img src="styles/legend/PCI2023_4_4.png" /> Rusak Berat<br />' });
+    <img src="styles/legend/PCI2023_4_3.png" /> Baik <br />\
+    <img src="styles/legend/PCI2023_4_4.png" /> Sangat Baik<br />' });
 var format_PCI2024_5 = new ol.format.GeoJSON();
 var features_PCI2024_5 = format_PCI2024_5.readFeatures(json_PCI2024_5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -92,11 +92,11 @@ var lyr_PCI2024_5 = new ol.layer.Vector({
                 popuplayertitle: 'PCI 2024',
                 interactive: true,
     title: 'PCI 2024<br />\
-    <img src="styles/legend/PCI2024_5_0.png" /> Sangat Baik <br />\
-    <img src="styles/legend/PCI2024_5_1.png" /> Baik <br />\
+    <img src="styles/legend/PCI2024_5_0.png" /> Rusak Berat<br />\
+    <img src="styles/legend/PCI2024_5_1.png" /> Rusak Ringan <br />\
     <img src="styles/legend/PCI2024_5_2.png" /> Sedang<br />\
-    <img src="styles/legend/PCI2024_5_3.png" /> Rusak Ringan <br />\
-    <img src="styles/legend/PCI2024_5_4.png" /> Rusak Berat<br />' });
+    <img src="styles/legend/PCI2024_5_3.png" /> Baik <br />\
+    <img src="styles/legend/PCI2024_5_4.png" /> Sangat Baik<br />' });
 var format_IRI2023_6 = new ol.format.GeoJSON();
 var features_IRI2023_6 = format_IRI2023_6.readFeatures(json_IRI2023_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -172,7 +172,7 @@ lyr_IRI2024_7.set('fieldImages', {'NO_RUAS': 'TextEdit', 'Linkid': 'TextEdit', '
 lyr_IRI2025_8.set('fieldImages', {'NO_RUAS': 'TextEdit', 'Linkid': 'TextEdit', 'Nama_Ruas': 'TextEdit', 'Ref_Awal': 'TextEdit', 'Ref_Akhir': 'TextEdit', 'Latitude': 'TextEdit', 'Longitude': 'TextEdit', 'Kabupaten': 'TextEdit', 'Kd_Satker': 'TextEdit', 'Satker': 'TextEdit', 'PPK': 'TextEdit', 'MNTP 2023': 'TextEdit', 'MNTP 2024': 'TextEdit', 'MNTP 2025': 'TextEdit', 'PCI 2023': 'TextEdit', 'PCI 2024': 'TextEdit', 'IRI 2023': 'TextEdit', 'IRI 2024': 'TextEdit', 'IRI 2025': 'TextEdit', });
 lyr_Mantap2023_1.set('fieldLabels', {'NO_RUAS': 'hidden field', 'Linkid': 'inline label - always visible', 'Nama_Ruas': 'inline label - always visible', 'Ref_Awal': 'hidden field', 'Ref_Akhir': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Kabupaten': 'hidden field', 'Kd_Satker': 'hidden field', 'Satker': 'hidden field', 'PPK': 'hidden field', 'MNTP 2023': 'inline label - always visible', 'MNTP 2024': 'hidden field', 'MNTP 2025': 'hidden field', 'PCI 2023': 'hidden field', 'PCI 2024': 'hidden field', 'IRI 2023': 'hidden field', 'IRI 2024': 'hidden field', 'IRI 2025': 'hidden field', });
 lyr_Mantap2024_2.set('fieldLabels', {'NO_RUAS': 'hidden field', 'Linkid': 'inline label - always visible', 'Nama_Ruas': 'inline label - always visible', 'Ref_Awal': 'hidden field', 'Ref_Akhir': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Kabupaten': 'hidden field', 'Kd_Satker': 'hidden field', 'Satker': 'hidden field', 'PPK': 'hidden field', 'MNTP 2023': 'hidden field', 'MNTP 2024': 'inline label - always visible', 'MNTP 2025': 'hidden field', 'PCI 2023': 'hidden field', 'PCI 2024': 'hidden field', 'IRI 2023': 'hidden field', 'IRI 2024': 'hidden field', 'IRI 2025': 'hidden field', });
-lyr_Mantap2025_3.set('fieldLabels', {'NO_RUAS': 'hidden field', 'Linkid': 'inline label - always visible', 'Nama_Ruas': 'inline label - always visible', 'Ref_Awal': 'hidden field', 'Ref_Akhir': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Kabupaten': 'hidden field', 'Kd_Satker': 'hidden field', 'Satker': 'hidden field', 'PPK': 'hidden field', 'MNTP 2023': 'hidden field', 'MNTP 2024': 'hidden field', 'MNTP 2025': 'inline label - always visible', 'PCI 2023': 'inline label - always visible', 'PCI 2024': 'hidden field', 'IRI 2023': 'hidden field', 'IRI 2024': 'hidden field', 'IRI 2025': 'hidden field', });
+lyr_Mantap2025_3.set('fieldLabels', {'NO_RUAS': 'hidden field', 'Linkid': 'inline label - always visible', 'Nama_Ruas': 'inline label - always visible', 'Ref_Awal': 'hidden field', 'Ref_Akhir': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Kabupaten': 'hidden field', 'Kd_Satker': 'hidden field', 'Satker': 'hidden field', 'PPK': 'hidden field', 'MNTP 2023': 'hidden field', 'MNTP 2024': 'hidden field', 'MNTP 2025': 'inline label - always visible', 'PCI 2023': 'hidden field', 'PCI 2024': 'hidden field', 'IRI 2023': 'hidden field', 'IRI 2024': 'hidden field', 'IRI 2025': 'hidden field', });
 lyr_PCI2023_4.set('fieldLabels', {'NO_RUAS': 'hidden field', 'Linkid': 'inline label - always visible', 'Nama_Ruas': 'inline label - always visible', 'Ref_Awal': 'hidden field', 'Ref_Akhir': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Kabupaten': 'hidden field', 'Kd_Satker': 'hidden field', 'Satker': 'hidden field', 'PPK': 'hidden field', 'MNTP 2023': 'hidden field', 'MNTP 2024': 'hidden field', 'MNTP 2025': 'hidden field', 'PCI 2023': 'inline label - always visible', 'PCI 2024': 'hidden field', 'IRI 2023': 'hidden field', 'IRI 2024': 'hidden field', 'IRI 2025': 'hidden field', });
 lyr_PCI2024_5.set('fieldLabels', {'NO_RUAS': 'hidden field', 'Linkid': 'inline label - always visible', 'Nama_Ruas': 'inline label - always visible', 'Ref_Awal': 'hidden field', 'Ref_Akhir': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Kabupaten': 'hidden field', 'Kd_Satker': 'hidden field', 'Satker': 'hidden field', 'PPK': 'hidden field', 'MNTP 2023': 'hidden field', 'MNTP 2024': 'hidden field', 'MNTP 2025': 'hidden field', 'PCI 2023': 'hidden field', 'PCI 2024': 'inline label - always visible', 'IRI 2023': 'hidden field', 'IRI 2024': 'hidden field', 'IRI 2025': 'hidden field', });
 lyr_IRI2023_6.set('fieldLabels', {'NO_RUAS': 'hidden field', 'Linkid': 'inline label - always visible', 'Nama_Ruas': 'inline label - always visible', 'Ref_Awal': 'hidden field', 'Ref_Akhir': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Kabupaten': 'hidden field', 'Kd_Satker': 'hidden field', 'Satker': 'hidden field', 'PPK': 'hidden field', 'MNTP 2023': 'hidden field', 'MNTP 2024': 'hidden field', 'MNTP 2025': 'hidden field', 'PCI 2023': 'hidden field', 'PCI 2024': 'hidden field', 'IRI 2023': 'inline label - always visible', 'IRI 2024': 'hidden field', 'IRI 2025': 'hidden field', });

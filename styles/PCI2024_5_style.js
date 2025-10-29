@@ -8,7 +8,7 @@ var style_PCI2024_5 = function(feature, resolution){
     };
     
     var labelText = ""; 
-    var value = feature.get("PCI 2024");
+    var value = feature.get("PCI 2023");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";

@@ -20,16 +20,16 @@ var style_Mantap2024_2 = function(feature, resolution){
     if ("" !== null) {
         labelText = String("");
     }
-    if (value >= 0.000000 && value <= 59.999990) {
+    if (value >= 0.000000 && value <= 59.980000) {
             style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(7,208,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,0,1,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })]
-                    } else if (value >= 59.999990 && value <= 100.000000) {
+                    } else if (value >= 59.980000 && value <= 100.000000) {
             style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,0,1,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
+        stroke: new ol.style.Stroke({color: 'rgba(7,208,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

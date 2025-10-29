@@ -36,7 +36,7 @@ var style_PCI2023_4 = function(feature, resolution){
     })]
                     } else if (value >= 55.000000 && value <= 70.000000) {
             style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,191,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,255,1,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
