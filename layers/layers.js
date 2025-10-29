@@ -25,8 +25,8 @@ var lyr_Mantap2023_1 = new ol.layer.Vector({
                 popuplayertitle: 'Mantap 2023',
                 interactive: true,
     title: 'Mantap 2023<br />\
-    <img src="styles/legend/Mantap2023_1_0.png" /> Tidak Mantap<br />\
-    <img src="styles/legend/Mantap2023_1_1.png" /> Mantap<br />' });
+    <img src="styles/legend/Mantap2023_1_0.png" /> Mantap<br />\
+    <img src="styles/legend/Mantap2023_1_1.png" /> Tidak Mantap<br />' });
 var format_Mantap2024_2 = new ol.format.GeoJSON();
 var features_Mantap2024_2 = format_Mantap2024_2.readFeatures(json_Mantap2024_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -41,8 +41,8 @@ var lyr_Mantap2024_2 = new ol.layer.Vector({
                 popuplayertitle: 'Mantap 2024',
                 interactive: true,
     title: 'Mantap 2024<br />\
-    <img src="styles/legend/Mantap2024_2_0.png" /> Tidak Mantap<br />\
-    <img src="styles/legend/Mantap2024_2_1.png" /> Mantap<br />' });
+    <img src="styles/legend/Mantap2024_2_0.png" /> Mantap<br />\
+    <img src="styles/legend/Mantap2024_2_1.png" /> Tidak Mantap<br />' });
 var format_Mantap2025_3 = new ol.format.GeoJSON();
 var features_Mantap2025_3 = format_Mantap2025_3.readFeatures(json_Mantap2025_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -57,8 +57,8 @@ var lyr_Mantap2025_3 = new ol.layer.Vector({
                 popuplayertitle: 'Mantap 2025',
                 interactive: true,
     title: 'Mantap 2025<br />\
-    <img src="styles/legend/Mantap2025_3_0.png" /> Tidak Mantap<br />\
-    <img src="styles/legend/Mantap2025_3_1.png" /> Mantap<br />' });
+    <img src="styles/legend/Mantap2025_3_0.png" /> Mantap<br />\
+    <img src="styles/legend/Mantap2025_3_1.png" /> Tidak Mantap<br />' });
 var format_PCI2023_4 = new ol.format.GeoJSON();
 var features_PCI2023_4 = format_PCI2023_4.readFeatures(json_PCI2023_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -73,11 +73,11 @@ var lyr_PCI2023_4 = new ol.layer.Vector({
                 popuplayertitle: 'PCI 2023',
                 interactive: true,
     title: 'PCI 2023<br />\
-    <img src="styles/legend/PCI2023_4_0.png" /> Rusak Berat<br />\
-    <img src="styles/legend/PCI2023_4_1.png" /> Rusak Ringan <br />\
+    <img src="styles/legend/PCI2023_4_0.png" /> Sangat Baik<br />\
+    <img src="styles/legend/PCI2023_4_1.png" /> Baik <br />\
     <img src="styles/legend/PCI2023_4_2.png" /> Sedang<br />\
-    <img src="styles/legend/PCI2023_4_3.png" /> Baik <br />\
-    <img src="styles/legend/PCI2023_4_4.png" /> Sangat Baik<br />' });
+    <img src="styles/legend/PCI2023_4_3.png" /> Rusak Ringan <br />\
+    <img src="styles/legend/PCI2023_4_4.png" /> Rusak Berat<br />' });
 var format_PCI2024_5 = new ol.format.GeoJSON();
 var features_PCI2024_5 = format_PCI2024_5.readFeatures(json_PCI2024_5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -92,11 +92,11 @@ var lyr_PCI2024_5 = new ol.layer.Vector({
                 popuplayertitle: 'PCI 2024',
                 interactive: true,
     title: 'PCI 2024<br />\
-    <img src="styles/legend/PCI2024_5_0.png" /> Rusak Berat<br />\
-    <img src="styles/legend/PCI2024_5_1.png" /> Rusak Ringan <br />\
+    <img src="styles/legend/PCI2024_5_0.png" /> Sangat Baik<br />\
+    <img src="styles/legend/PCI2024_5_1.png" /> Baik <br />\
     <img src="styles/legend/PCI2024_5_2.png" /> Sedang<br />\
-    <img src="styles/legend/PCI2024_5_3.png" /> Baik <br />\
-    <img src="styles/legend/PCI2024_5_4.png" /> Sangat Baik<br />' });
+    <img src="styles/legend/PCI2024_5_3.png" /> Rusak Ringan <br />\
+    <img src="styles/legend/PCI2024_5_4.png" /> Rusak Berat<br />' });
 var format_IRI2023_6 = new ol.format.GeoJSON();
 var features_IRI2023_6 = format_IRI2023_6.readFeatures(json_IRI2023_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
