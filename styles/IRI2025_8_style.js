@@ -9,10 +9,10 @@ var style_IRI2025_8 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("IRI 2025");
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
-    var bufferColor = "";
-    var bufferWidth = 0;
+    var labelFont = "13.0px \'Arial\', sans-serif";
+    var labelFill = "#323232";
+    var bufferColor = "#fafafa";
+    var bufferWidth = 3.0;
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
